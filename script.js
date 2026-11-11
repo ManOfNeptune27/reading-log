@@ -40,7 +40,7 @@ fetch("books.json")
 
 const snow = document.querySelector("#snow");
 
-for (let i = 0; i < 200; i++) {
+for (let i = 0; i < 300; i++) {
     const flake = document.createElement("li");
     flake.style.left = `${Math.random() * 100}%`;
     flake.style.width = `${2 + Math.random() * 10}px`;
